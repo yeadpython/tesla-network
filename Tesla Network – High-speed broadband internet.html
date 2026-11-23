@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tesla Network – High-speed broadband internet</title>
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FDFEFF;--ink:#101B33;--mute:#4F5E7B;--line:#DCE3F2;--card:#FFFFFF;--blue:#2450F0;--hot:#E8452F;--soft:#E3EEFF;--teal:#0FA597;--amber:#F5A100;--violet:#7449F0;--tint1:#E4F0FF;--tint2:#FFF4E5;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0B1222;--ink:#EAF0FF;--mute:#A3B1CE;--line:#25324F;--card:#121C33;--blue:#7C9BFF;--hot:#FF7A63;--soft:#18264A;--teal:#34D1C2;--amber:#FFC247;--violet:#A58BFF;--tint1:#14224A;--tint2:#2A1D22}}
+:root[data-theme="dark"]{--bg:#0B1222;--ink:#EAF0FF;--mute:#A3B1CE;--line:#25324F;--card:#121C33;--blue:#7C9BFF;--hot:#FF7A63;--soft:#18264A;--teal:#34D1C2;--amber:#FFC247;--violet:#A58BFF;--tint1:#14224A;--tint2:#2A1D22}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:'IBM Plex Sans',system-ui,sans-serif;line-height:1.65;font-size:17px}
+h1,h2,h3,.disp{font-family:'Bricolage Grotesque','IBM Plex Sans',sans-serif;letter-spacing:-.02em;line-height:1.15}
+.hero{background:radial-gradient(60% 70% at 90% 0%,var(--tint1),transparent 70%),radial-gradient(50% 60% at 0% 100%,var(--tint2),transparent 70%)}
+.grad{background:linear-gradient(135deg,var(--blue),var(--violet))}
+.grad-hot{background:linear-gradient(135deg,var(--hot),var(--amber))}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.bar{transform-origin:left;transform:scaleX(0);animation:grow 1.4s cubic-bezier(.2,.8,.2,1) .2s forwards}
+@keyframes grow{to{transform:scaleX(1)}}
+@media (prefers-reduced-motion:reduce){.bar{animation:none;transform:none}html{scroll-behavior:auto}}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details[open] .plus{transform:rotate(45deg)}
+.plus{transition:transform .2s}
+</style>
+</head>
+<body>
+
+<div class="hero">
+<header class="mx-auto flex max-w-5xl items-center justify-between px-5 py-5">
+  <a href="#top" class="flex items-center gap-3" aria-label="Tesla Network home"><span class="grad grid h-11 w-11 place-items-center rounded-xl shadow-md"><svg viewBox="0 0 24 24" class="h-6 w-6" fill="#fff" aria-hidden="true"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg></span><span class="disp text-2xl font-extrabold sm:text-3xl">Tesla <span class="text-[var(--blue)]">Network</span></span></a>
+  <a href="tel:+8801XXXXXXXXX" class="rounded-md border border-[var(--line)] bg-[var(--card)] px-4 py-2 text-sm font-medium hover:border-[var(--blue)]">Call us</a>
+</header>
+
+<main id="top">
+<!-- Hero -->
+<section class="mx-auto grid max-w-5xl items-center gap-10 px-5 py-12 md:grid-cols-2 md:py-20">
+  <div>
+    <p class="grad-hot inline-block rounded-full px-4 py-1 text-sm font-medium text-white">Offer: 100 Mbps for just Tk 1,000 (regular Tk 1,500)</p>
+    <h1 class="mt-4 text-4xl font-extrabold sm:text-5xl md:text-6xl">Work, play and stream without the buffering.</h1>
+    <p class="mt-5 max-w-md text-lg text-[var(--mute)]">Nationwide broadband backed by top upstream providers and multiple redundant circuits. Support engineers are on call 24/7.</p>
+    <div class="mt-8 flex flex-wrap items-center gap-4">
+      <a href="tel:+8801XXXXXXXXX" class="grad-hot rounded-md px-6 py-3 text-lg font-medium text-white shadow-lg hover:opacity-90">Get connected today</a>
+      <a href="#packages" class="font-medium text-[var(--blue)] underline underline-offset-4">See packages</a>
+    </div>
+    <p class="mt-4 text-sm text-[var(--mute)]">From Tk 500 per month. Call anytime and we’ll arrange delivery.</p>
+    <div class="mt-5 flex flex-wrap gap-2 text-sm font-medium"><span class="rounded-full bg-[var(--card)] px-3 py-1 text-[var(--teal)] ring-1 ring-[var(--line)]">99% uptime</span><span class="rounded-full bg-[var(--card)] px-3 py-1 text-[var(--violet)] ring-1 ring-[var(--line)]">24/7 support</span><span class="rounded-full bg-[var(--card)] px-3 py-1 text-[var(--amber)] ring-1 ring-[var(--line)]">Low-latency gaming</span></div>
+  </div>
+  <div class="rounded-2xl border border-[var(--line)] bg-[var(--card)] p-6 shadow-xl">
+    <p class="text-sm text-[var(--mute)]">Pick your speed</p>
+    <div class="mt-4 space-y-4" aria-label="Speed comparison by package">
+      <div><div class="flex justify-between text-sm"><span>30 Mbps</span><span>Tk 500</span></div><div class="h-3 rounded-full bg-[var(--soft)]"><div class="bar h-3 rounded-full bg-[var(--teal)]" style="width:30%"></div></div></div>
+      <div><div class="flex justify-between text-sm"><span>50 Mbps</span><span>Tk 700</span></div><div class="h-3 rounded-full bg-[var(--soft)]"><div class="bar h-3 rounded-full bg-[var(--blue)]" style="width:50%"></div></div></div>
+      <div><div class="flex justify-between text-sm"><span>100 Mbps</span><span><s class="text-[var(--mute)]">Tk 1,500</s> <b class="text-[var(--hot)]">Tk 1,000</b></span></div><div class="h-3 rounded-full bg-[var(--soft)]"><div class="bar grad-hot h-3 rounded-full" style="width:100%"></div></div></div>
+    </div>
+  </div>
+</section>
+</main>
+</div>
+
+<!-- Features -->
+<section class="mx-auto max-w-5xl px-5 py-14">
+  <h2 class="text-3xl font-extrabold">Why Tesla Network</h2>
+  <div class="mt-8 grid gap-5 md:grid-cols-2">
+    <article class="rounded-xl border border-[var(--line)] border-t-4 border-t-[var(--teal)] bg-[var(--card)] p-6">
+      <h3 class="text-xl font-bold">🛡️ 99% uptime</h3>
+      <p class="mt-2 text-[var(--mute)]">With the best upstream providers and multiple redundant circuits, your connection keeps running even when one line has a problem.</p>
+    </article>
+    <article class="rounded-xl border border-[var(--line)] border-t-4 border-t-[var(--violet)] bg-[var(--card)] p-6">
+      <h3 class="text-xl font-bold">🎮 Low latency for gaming</h3>
+      <p class="mt-2 text-[var(--mute)]">Optimized routes and high-quality bandwidth to cut lag in online games.</p>
+    </article>
+    <article class="rounded-xl border border-[var(--line)] border-t-4 border-t-[var(--amber)] bg-[var(--card)] p-6">
+      <h3 class="text-xl font-bold">🎧 24/7 support</h3>
+      <p class="mt-2 text-[var(--mute)]">Day or night, talk to skilled support engineers whenever you need help.</p>
+    </article>
+    <article class="rounded-xl border border-[var(--line)] border-t-4 border-t-[var(--hot)] bg-[var(--card)] p-6">
+      <h3 class="text-xl font-bold">🌍 Available nationwide</h3>
+      <p class="mt-2 text-[var(--mute)]">For home, office or freelancing, pick the speed that fits your needs.</p>
+    </article>
+  </div>
+</section>
+
+<!-- Packages -->
+<section id="packages" class="bg-[var(--tint1)] py-14">
+ <div class="mx-auto max-w-5xl px-5">
+  <h2 class="text-3xl font-extrabold">Packages and pricing</h2>
+  <p class="mt-2 text-[var(--mute)]">All prices are monthly. Call anytime to get connected.</p>
+  <ul class="mt-8 space-y-3">
+    <li class="flex flex-wrap items-center gap-4 rounded-xl border border-[var(--line)] border-l-8 border-l-[var(--teal)] bg-[var(--card)] p-5"><span class="disp w-32 text-2xl font-extrabold text-[var(--teal)]">30 Mbps</span><span class="disp flex-1 text-xl font-bold">Tk 500</span><a href="tel:+8801XXXXXXXXX" class="rounded-md border border-[var(--line)] px-4 py-2 text-sm font-medium hover:border-[var(--blue)]">Choose this plan</a></li>
+    <li class="flex flex-wrap items-center gap-4 rounded-xl border border-[var(--line)] border-l-8 border-l-[var(--blue)] bg-[var(--card)] p-5"><span class="disp w-32 text-2xl font-extrabold text-[var(--blue)]">40 Mbps</span><span class="disp flex-1 text-xl font-bold">Tk 600</span><a href="tel:+8801XXXXXXXXX" class="rounded-md border border-[var(--line)] px-4 py-2 text-sm font-medium hover:border-[var(--blue)]">Choose this plan</a></li>
+    <li class="flex flex-wrap items-center gap-4 rounded-xl border border-[var(--line)] border-l-8 border-l-[var(--violet)] bg-[var(--card)] p-5"><span class="disp w-32 text-2xl font-extrabold text-[var(--violet)]">50 Mbps</span><span class="disp flex-1 text-xl font-bold">Tk 700</span><a href="tel:+8801XXXXXXXXX" class="rounded-md border border-[var(--line)] px-4 py-2 text-sm font-medium hover:border-[var(--blue)]">Choose this plan</a></li>
+    <li class="flex flex-wrap items-center gap-4 rounded-xl border border-[var(--line)] border-l-8 border-l-[var(--amber)] bg-[var(--card)] p-5"><span class="disp w-32 text-2xl font-extrabold text-[var(--amber)]">70 Mbps</span><span class="disp flex-1 text-xl font-bold">Tk 800</span><a href="tel:+8801XXXXXXXXX" class="rounded-md border border-[var(--line)] px-4 py-2 text-sm font-medium hover:border-[var(--blue)]">Choose this plan</a></li>
+    <li class="grad-hot relative flex flex-wrap items-center gap-4 rounded-xl p-5 text-white shadow-xl">
+      <span class="absolute -top-3 right-4 rounded-full bg-white px-3 py-1 text-xs font-medium text-[#B42E1B]">Limited-time offer</span>
+      <span class="disp w-32 text-2xl font-extrabold">100 Mbps</span>
+      <span class="disp flex-1 text-xl font-bold"><s class="opacity-75">Tk 1,500</s> Tk 1,000 <span class="ml-1 rounded-full bg-white/25 px-2 py-0.5 text-xs font-medium">Save Tk 500</span></span>
+      <a href="tel:+8801XXXXXXXXX" class="rounded-md bg-white px-4 py-2 text-sm font-medium text-[#B42E1B] hover:opacity-90">Grab the offer</a>
+    </li>
+  </ul>
+ </div>
+</section>
+
+<!-- Reviews -->
+<section class="mx-auto max-w-5xl px-5 py-14">
+  <h2 class="text-3xl font-extrabold">What customers say</h2>
+  <p class="mt-2 text-sm text-[var(--mute)]">Sample reviews. Replace them with real customer feedback.</p>
+  <div class="mt-8 grid gap-5 md:grid-cols-3">
+    <blockquote class="rounded-xl border border-[var(--line)] bg-[var(--card)] p-6"><p>Online classes and office meetings both run without any trouble.</p><footer class="mt-4 flex items-center gap-3 text-sm text-[var(--mute)]"><span class="grid h-9 w-9 place-items-center rounded-full bg-[var(--teal)] font-bold text-white">R</span>Rashed, freelancer</footer></blockquote>
+    <blockquote class="rounded-xl border border-[var(--line)] bg-[var(--card)] p-6"><p>Lag in my games feels much lower than before.</p><footer class="mt-4 flex items-center gap-3 text-sm text-[var(--mute)]"><span class="grid h-9 w-9 place-items-center rounded-full bg-[var(--violet)] font-bold text-white">T</span>Tanvir, gamer</footer></blockquote>
+    <blockquote class="rounded-xl border border-[var(--line)] bg-[var(--card)] p-6"><p>Even when I had an issue at night, support picked up and helped.</p><footer class="mt-4 flex items-center gap-3 text-sm text-[var(--mute)]"><span class="grid h-9 w-9 place-items-center rounded-full bg-[var(--hot)] font-bold text-white">S</span>Sumaiya, homemaker</footer></blockquote>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="mx-auto max-w-3xl px-5 py-14">
+  <h2 class="text-3xl font-extrabold">Frequently asked questions</h2>
+  <div class="mt-8 divide-y divide-[var(--line)] border-y border-[var(--line)]">
+    <details class="py-4"><summary class="flex items-center justify-between gap-4 font-medium"><span>How do I get a connection?</span><span class="plus text-2xl text-[var(--hot)]">+</span></summary><p class="mt-3 text-[var(--mute)]">Call our number anytime. We’ll confirm your area and package, then arrange delivery.</p></details>
+    <details class="py-4"><summary class="flex items-center justify-between gap-4 font-medium"><span>How is 99% uptime achieved?</span><span class="plus text-2xl text-[var(--hot)]">+</span></summary><p class="mt-3 text-[var(--mute)]">We use the best upstream providers and keep multiple redundant circuits. If one path has a problem, traffic moves to another.</p></details>
+    <details class="py-4"><summary class="flex items-center justify-between gap-4 font-medium"><span>Is it good for gaming?</span><span class="plus text-2xl text-[var(--hot)]">+</span></summary><p class="mt-3 text-[var(--mute)]">Yes. Our network is optimized to keep game latency low.</p></details>
+    <details class="py-4"><summary class="flex items-center justify-between gap-4 font-medium"><span>When can I reach support?</span><span class="plus text-2xl text-[var(--hot)]">+</span></summary><p class="mt-3 text-[var(--mute)]">Our support engineers are available 24 hours a day, 7 days a week.</p></details>
+    <details class="py-4"><summary class="flex items-center justify-between gap-4 font-medium"><span>Which package is right for me?</span><span class="plus text-2xl text-[var(--hot)]">+</span></summary><p class="mt-3 text-[var(--mute)]">Call and tell us how many people use the connection and what for. Our team will suggest a suitable speed.</p></details>
+  </div>
+</section>
+
+<!-- CTA + contact -->
+<section id="contact" class="mx-auto max-w-5xl px-5 py-14">
+  <div class="grad rounded-2xl p-8 text-center md:p-12">
+    <h2 class="text-3xl font-extrabold text-white">Get fast, reliable internet today.</h2>
+    <p class="mx-auto mt-3 max-w-md text-white/90">Call anytime and we’ll arrange your connection. 100 Mbps now at the offer price of Tk 1,000 instead of Tk 1,500.</p>
+    <a href="tel:+8801XXXXXXXXX" class="mt-6 inline-block rounded-md bg-white px-7 py-3 text-lg font-medium text-[#101B33] hover:opacity-90">Call: 01XXXXXXXXX</a>
+  </div>
+  <dl class="mt-8 grid gap-4 text-[var(--mute)] sm:grid-cols-3">
+    <div><dt class="font-medium text-[var(--ink)]">Phone</dt><dd>01XXXXXXXXX</dd></div>
+    <div><dt class="font-medium text-[var(--ink)]">Address</dt><dd>Add your office address here</dd></div>
+    <div><dt class="font-medium text-[var(--ink)]">Facebook page</dt><dd><a class="text-[var(--blue)] underline" href="https://facebook.com/">facebook.com/teslanetwork</a></dd></div>
+  </dl>
+</section>
+
+<footer class="mx-auto max-w-5xl px-5 py-8 text-sm text-[var(--mute)]">© 2026 Tesla Network. All rights reserved.</footer>
+</body>
+</html>
